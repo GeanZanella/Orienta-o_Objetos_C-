@@ -1,0 +1,16 @@
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.exe
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.deps.json
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.runtimeconfig.json
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.runtimeconfig.dev.json
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.dll
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\ref\TDE_AULA2.dll
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\bin\Debug\net5.0\TDE_AULA2.pdb
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.csproj.AssemblyReference.cache
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.AssemblyInfoInputs.cache
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.AssemblyInfo.cs
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.csproj.CoreCompileInputs.cache
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.dll
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\ref\TDE_AULA2.dll
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.pdb
+D:\Documents\Desktop\PROJETOS POO\TDE_AULA2\obj\Debug\net5.0\TDE_AULA2.genruntimeconfig.cache
