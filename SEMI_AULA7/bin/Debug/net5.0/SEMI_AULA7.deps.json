@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SEMI_AULA7/1.0.0": {
+        "runtime": {
+          "SEMI_AULA7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEMI_AULA7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.csproj.AssemblyReference.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.AssemblyInfoInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.AssemblyInfo.cs
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.csproj.CoreCompileInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.exe
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.deps.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.runtimeconfig.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.runtimeconfig.dev.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\ref\SEMI_AULA7.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\bin\Debug\net5.0\SEMI_AULA7.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\ref\SEMI_AULA7.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\SEMI_AULA7\obj\Debug\net5.0\SEMI_AULA7.genruntimeconfig.cache

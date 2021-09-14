@@ -1,0 +1,16 @@
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.exe
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.deps.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.runtimeconfig.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.runtimeconfig.dev.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\ref\EXERCICIO_1.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\bin\Debug\net5.0\EXERCICIO_1.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.csproj.AssemblyReference.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.AssemblyInfoInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.AssemblyInfo.cs
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.csproj.CoreCompileInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\ref\EXERCICIO_1.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\TDE_AULA3\EXERCICIO_1\obj\Debug\net5.0\EXERCICIO_1.genruntimeconfig.cache
