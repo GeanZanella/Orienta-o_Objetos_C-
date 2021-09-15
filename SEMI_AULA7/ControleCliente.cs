@@ -8,6 +8,7 @@ namespace SEMI_AULA7
     public class ControleCliente
     {
         ListaCliente minhaListaCliente = new ListaCliente();
+        ListaCobranca minhaListaCobranca = new ListaCobranca();
 
         public void criarCliente()
         {
@@ -113,9 +114,65 @@ namespace SEMI_AULA7
                 Console.WriteLine("Digite o id do cliente a ser removido: ");
                 apresentarListaCliente();
                 string idClienteRemover = Console.ReadLine();
+                List<Cobranca> cobrancas = minhaListaCobranca.listarCobrancas();
+                Cobranca cobranca = null;
+                cobranca = cobrancas.Find(c => c.Cliente_.Id.Equals(idClienteRemover));
+                if (cobranca == null)
+                {
+                    string retorno = minhaListaCliente.removerCliente(idClienteRemover);
+                    Console.WriteLine(retorno);
+                }
+                else
+                {
+                    Console.WriteLine("O cliente possui cobranças registradas em seu nome impossivel concluir a remoção!");
+                }
 
-                string retorno = minhaListaCliente.removerCliente(idClienteRemover);
-                Console.WriteLine(retorno);
+            }
+        }
+        public void criarCobranca()
+        {
+            Console.WriteLine("Escolha o id do cliente que recebera essa cobrança: ");
+            apresentarListaCliente();
+            string idCliente = Console.ReadLine();
+            List<Cliente> clientes = minhaListaCliente.listarClientes();
+            Cliente clienteDevedor = null;
+            clienteDevedor = clientes.Find(c => c.Id.Equals(idCliente));
+            if(clienteDevedor == null)
+            {
+                Console.WriteLine("ERRO, cliente inexistente, verifique o id correto na lista de clientes");
+            }
+             else
+            {
+                string id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
+                Console.WriteLine("Digite a data de emissão da cobrança ");
+                string novaDataEmissao = Console.ReadLine();
+                DateTime dataEmissao = Convert.ToDateTime(novaDataEmissao);
+                Console.WriteLine("Digite a data de vencimento da cobrança ");
+                string novaDataVencimento = Console.ReadLine();
+                DateTime dataVencimento = Convert.ToDateTime(novaDataVencimento);
+                Console.WriteLine("Digite o valor da cobrança ");
+                string novoValor = Console.ReadLine();
+                double valorCobrado = Convert.ToDouble(novoValor);
+
+                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, dataEmissao, dataVencimento, valorCobrado, clienteDevedor));
+
+                Console.WriteLine("Cobrança cadastrada com sucesso!\n");
+            }            
+
+        }
+        public void apresentarListaCobrancas()
+        {
+            List<Cobranca> cobrancas = minhaListaCobranca.listarCobrancas();
+            if (cobrancas.Count == 0)
+            {
+                Console.WriteLine("Numero de cobranças cadastradas é igual a 0! ");
+            }
+            else
+            {
+                foreach (var item in minhaListaCobranca.listarCobrancas())
+                { 
+                    Console.WriteLine(item.getDescription());
+                }
             }
         }
     }

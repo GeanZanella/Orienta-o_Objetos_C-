@@ -7,7 +7,6 @@ namespace SEMI_AULA7
         public string Telefone { get; set; }
         public string Cpf { get; set; }
         public string Endereco { get; set; }
-        /*public List<Cobranca> ListCobrancas { get; set; }*/
 
         public Cliente()
         {
@@ -22,7 +21,7 @@ namespace SEMI_AULA7
             this.Telefone = telefone;
             this.Cpf = cpf;
             this.Endereco = endereco;
-            /*this.List<Cobranca> = listCobrancas;*/
+
         }
 
         public string getDescription()
