@@ -26,5 +26,25 @@ namespace SEMI_AULA7
         {
             listaDeCobranca.Add(cobranca);
         }
+
+        /*Efetuar pagamento cobranças*/
+
+        public string efetuarPagamento(string id_cobranca)
+        {
+            Cobranca cobranca = null;
+            cobranca = listaDeCobranca.Find(c => c.Id.Equals(id_cobranca));
+            if (cobranca == null)
+            {
+                return"ERRO! não existe cobranças registrada";
+            }
+            if (cobranca.ConfirmacaoPagamento == true)
+            {
+                return "Essa cobrança ja foi liquidada!";
+            }
+            cobranca.DataPagamento = DateTime.Now.ToString("dd-MM-yyyy");
+            cobranca.ConfirmacaoPagamento = true;
+
+            return "Pagamento realizado com sucesso!\nData do pagamento: "+ cobranca.DataPagamento;
+        }
     }
 }

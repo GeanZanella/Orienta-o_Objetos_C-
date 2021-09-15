@@ -26,13 +26,16 @@ namespace SEMI_AULA7
                 Console.WriteLine("Digite 5 para excluir um cliente: ");
                 Console.WriteLine("Digite 6 para add uma cobrança: ");
                 Console.WriteLine("Digite 7 para listar cobranças: ");
+                Console.WriteLine("Digite 8 para efetuar o pagamendo de uma cobrança: ");
                 Console.WriteLine("Digite 0 para encerrar: \n");
 
                 string  resposta  =  Console.ReadLine ();
 
                 operador = resposta;
 
-                while(operador != "1" && operador != "2" && operador != "3" && operador != "4" && operador != "5" && operador != "6" && operador != "7" && operador != "0")
+                while(operador != "1" && operador != "2" && operador != "3" && operador != "4" 
+                && operador != "5" && operador != "6" && operador != "7" && operador != "8" 
+                && operador != "0")
                 {   
                     Console.WriteLine("Operação invalida digite novamente");
                     resposta = Console.ReadLine();
@@ -60,6 +63,9 @@ namespace SEMI_AULA7
                     break;
                     case "7" :
                         controle.apresentarListaCobrancas();
+                    break;
+                    case "8" :
+                        controle.escolherCobrancaPagamento();
                     break;
                 }
 

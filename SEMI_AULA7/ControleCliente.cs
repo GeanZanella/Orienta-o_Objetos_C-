@@ -173,7 +173,15 @@ namespace SEMI_AULA7
                 { 
                     Console.WriteLine(item.getDescription());
                 }
-            }
+            }  
+        }
+        public void escolherCobrancaPagamento()
+        {
+            Console.WriteLine("Digite o id da cobraça para realizar o pagamento");
+            apresentarListaCobrancas();
+            string id_cobranca = Console.ReadLine();
+            string retorno = minhaListaCobranca.efetuarPagamento(id_cobranca);
+            Console.WriteLine(retorno);
         }
     }
 }
