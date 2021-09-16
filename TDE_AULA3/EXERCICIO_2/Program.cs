@@ -9,57 +9,48 @@ namespace EXERCICIO_2
     {
         static void Main(string[] args)
         {
-            ControleMenuAgenda  controle  =  novo  ControleMenuAgenda ();
+            ControleMenuAgenda controle = new ControleMenuAgenda();
+            string  operador ;
 
-            string  sair  =  " 0 " ;
+            do{
+                Console.WriteLine("\nDigite 1 para add um contato: ");
+                Console.WriteLine("Digite 2 para apresentar o numero de contatos cadastrados: ");
+                Console.WriteLine("Digite 3 para listar todos os contatos: " );
+                Console.WriteLine("Digite 4 para editar um contato: ");
+                Console.WriteLine("Digite 5 para excluir um contato: ");
+                Console.WriteLine("Digite 0 para encerrar: \n");
 
-            do
-            {
-                Console . WriteLine ( " Digite 1 para add um contato: " );
-                Console . WriteLine ( " Digite 2 para editar um contato: " );
-                Console . WriteLine ( " Digite 3 para desativar um contato: " );
-                Console . WriteLine ( " Digite 4 para reativar um contato: " );
-                Console . WriteLine ( " Digite 5 para listar os contatos ativos: " );
-                Console . WriteLine ( " Digite 6 para listar os contatos inativos: " );
-                Console . WriteLine ( " Digite 7 para listar todos os contatos: " );
-                Console . WriteLine ( " Pressione Ctrl C para finalizar o programa " );
+                string  resposta  =  Console.ReadLine ();
 
-                string  operador  =  Console . ReadLine ();
+                operador = resposta;
 
-                if ( operador  ==  " 1 " )
-                {
-                controle . criarContato ();
+                while(operador != "1" && operador != "2" && operador != "3" && operador != "4" 
+                && operador != "5"  && operador != "0")
+                {   
+                    Console.WriteLine("Operação invalida digite novamente");
+                    resposta = Console.ReadLine();
+                    operador = resposta;
                 }
-                else  if ( operador  ==  " 2 " )
+                switch (operador)
                 {
-                controle . escolherContatoEdit ();
+                    case "1" :
+                        controle.criarContato();
+                        break;
+                    case "2" :
+                        controle.printLista();
+                        break;
+                    case "3" :
+                        controle.apresentarListaContato();
+                        break;
+                    case "4" :
+                        controle.apresentarContatoEditado();
+                        break;
+                    case "5" :
+                        controle.apresentarContatoRemovido();
+                    break;
                 }
-                else  if ( operador  ==  " 3 " )
-                {
-                controle . escolherContatoDesativar ();
-                }
-                else  if ( operador  ==  " 4 " )
-                {
-                controle . escolherContatoReativar ();
-                }
-                else  if ( operador  ==  " 5 " )
-                {
-                controle . listContactsActivated ();
-                }
-                else  if ( operador  ==  " 6 " )
-                {
-                controle . listContactsDesactivated ();
-                }
-                else  if ( operador  ==  " 7 " )
-                {
-                controle . listFullContacts ();
-                }
-                else
-                {
-                Console . WriteLine ( " Opção inválida! " );
-                }
-
-            }while( sair  ! =  " 99 " );
+            }while(operador != "0");
+            Console.WriteLine("Programa encerrado!");
         }
     }
 }

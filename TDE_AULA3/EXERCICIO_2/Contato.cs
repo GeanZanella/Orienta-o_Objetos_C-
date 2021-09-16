@@ -2,19 +2,23 @@ namespace EXERCICIO_2
 {
     public class Contato
     {
-        public string id { get; set; }
-        string nome;
-        string numero;
-        bool ativo = false;
-
-        public Contato(string id, string nome, string numero, bool ativo)
+        public string Id { get; set; }
+        public string Nome { get; set; }
+        public string Numero { get; set; }
+        public Contato(string id, string nome, string numero)
         {
-        this.id = id;
-        this.nome = nome;
-        this.numero = numero;
-        this.ativo = ativo;
+            this.Id = id;
+            this.Nome = nome;
+            this.Numero = numero;
         }
+        public string getDescription()
+        {
+            return "Id: " + Id + " - " + Nome + " -  Número: " + Numero;
+        }
+    }
+}
 
+        /*
         public string getNome()
         {
         return this.nome;
@@ -24,35 +28,4 @@ namespace EXERCICIO_2
         {
         this.nome = nome;
         }
-
-        public string getNumero()
-        {
-        return this.numero;
-        }
-
-        public void setNumero(string numero)
-        {
-        this.numero = numero;
-        }
-
-        public bool getAtivo()
-        {
-        return this.ativo;
-        }
-
-        public void setAtivo(bool ativo)
-        {
-        this.ativo = ativo;
-        }
-
-        public string getDescriptionContatosAtivos()
-        {
-        return "Id: " + id + " - " + nome + " -  Número: " + numero;
-        }
-
-        public string getDescriptionTodosContatos()
-        {
-        return "Id: " + id + " - " + nome + " -  Número: " + numero + " Ativado: " + ativo;
-        }
-    }
-}
+        */
