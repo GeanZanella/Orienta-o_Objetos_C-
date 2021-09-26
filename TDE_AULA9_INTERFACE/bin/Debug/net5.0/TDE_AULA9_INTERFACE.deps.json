@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TDE_AULA9_INTERFACE/1.0.0": {
+        "runtime": {
+          "TDE_AULA9_INTERFACE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TDE_AULA9_INTERFACE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
