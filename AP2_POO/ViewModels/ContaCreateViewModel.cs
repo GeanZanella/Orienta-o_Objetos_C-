@@ -12,6 +12,10 @@ namespace AP2_POO.ViewModels
             this.KwGasto = kmgasto;
             this.ValorPagar = valorPagar;
         }
+        public ContaCreateViewModel()
+        {
+            
+        }
 
         public int NumLeitura { get; set; }
         public int KwGasto { get; set; }

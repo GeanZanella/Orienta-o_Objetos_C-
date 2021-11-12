@@ -3,12 +3,8 @@ using AP2_POO.Models;
 
 namespace AP2_POO.Interfaces
 {
-    public interface IContaRepository
+    public interface IContaRepository : IBaseRepository<Conta>
     {
-         Conta GetById(int id);
-         List<Conta> GetAll();
-         void Save(Conta conta);
-         void Delete(Conta conta);
-         void Update(Conta conta);
+
     }
 }

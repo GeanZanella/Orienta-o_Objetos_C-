@@ -87,19 +87,22 @@ namespace AP2_POO.Controllers
         
         [HttpPut]
         [Route("conta/{id}")]
-        public IActionResult Put([FromRoute]int id)
+        public IActionResult Put(int id)
         {
             var conta = contas.GetById(id);
             if(conta == null) return NotFound();
             try
             {
-                var conta_ = new Conta()
+                conta.DataPagamento = DateTime.Now;
+                conta.PagamentoRealizado = true;
+
+                /*var conta_ = new Conta()
                 {
                     DataPagamento = DateTime.Now,
                     PagamentoRealizado = true
-                };
+                };*/
 
-                contas.Update(conta_); 
+                contas.Update(conta); 
                 return Ok(new
                 {
                     message = "Conta Atuaçizada com Sucesso!",

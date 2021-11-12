@@ -10,5 +10,6 @@ namespace AP2_POO.Data
             
         }
         public DbSet<Conta> Contas{ get; set; }
+        public DbSet<Cliente> Clientes{ get; set; } 
     }
 }

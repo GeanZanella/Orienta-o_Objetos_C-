@@ -4,7 +4,7 @@ namespace AP2_POO.Models
 {
     public class Conta
     {
-        public Conta(int id, DateTime dataLeitura, int numLeitura, 
+        /*public Conta(int id, DateTime dataLeitura, int numLeitura, 
         int kmgasto, double valorPagar, double mediaConsumo)
         {
             this.Id = id;
@@ -14,7 +14,7 @@ namespace AP2_POO.Models
             this.ValorPagar = valorPagar;
             this.MediaConsumo = mediaConsumo;
             this.PagamentoRealizado = false;
-        }
+        }*/
         public Conta()
         {
             
@@ -27,5 +27,6 @@ namespace AP2_POO.Models
         public DateTime DataPagamento { get; set; }
         public double MediaConsumo { get; set; }
         public bool PagamentoRealizado { get; set; }
+        public Cliente Cliente { get; set; } 
     }
 }
